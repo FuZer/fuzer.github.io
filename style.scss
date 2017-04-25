@@ -226,6 +226,30 @@ nav {
     font-size: 16px;
   }
 
+  ul {
+    list-style:none;
+    padding: 0px 0px 0px 0px;
+  }
+
+  ul li {
+    padding:0px 20px 0px 0px;
+    float: left;
+  }
+
+  ul ul {
+    display: none;
+  }
+
+  ul li:hover {
+  	background-color:#f5f5f5;
+    border-radius: 5px;
+  }
+
+  ul li:hover ul {
+    float: none;
+    display: block;
+  }
+
   a {
     margin-left: 20px;
     color: $darkGray;
@@ -239,6 +263,7 @@ nav {
     }
   }
 }
+
 
 //
 // .main
