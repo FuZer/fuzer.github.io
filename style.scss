@@ -236,20 +236,6 @@ nav {
     float: left;
   }
 
-  ul ul {
-    display: none;
-  }
-
-  ul li:hover {
-  	background-color:#f5f5f5;
-    border-radius: 5px;
-  }
-
-  ul li:hover ul {
-    float: none;
-    display: block;
-  }
-
   a {
     margin-left: 20px;
     color: $darkGray;

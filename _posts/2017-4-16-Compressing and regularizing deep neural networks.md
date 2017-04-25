@@ -50,7 +50,7 @@ DSD 교육은 inference에 대한 오버 헤드가 발생하지 않습니다.
 마지막으로 네트워크를 재 훈련하여 나머지 희소 연결에 대한 최종 가중치를 학습합니다.
 가지 치기는 AlexNet 및 VGG-16 모델의 경우 매개 변수 수를 9 배 - 13 배 줄였습니다.
 
-![그림 1 ](../images/2017-4-16-Compressing-and-regularizing-deep-neural-networks/pruning.png)   
+![그림 1 ](/images/2017-4-16-Compressing-and-regularizing-deep-neural-networks/pruning.png)   
 <font color="gray"> [그림 1] 네트워크 가지 치기 모든 이미지의 저작권은 *Song Han* 에게 있습니다. </font>
 
 `Deep compression` 의 다음 단계는 가중치를 공유 하는 것 입니다.
@@ -68,7 +68,7 @@ DSD 교육은 inference에 대한 오버 헤드가 발생하지 않습니다.
 우리의 실험은 이러한 종류의 가중치 공유 기법이 압축 정도와 정확도 측면에서
 선형 양자화 ( linear quantization ) 보다 낫다는 것을 발견했습니다.
 
-![그림 2](../images/2017-4-16-Compressing-and-regularizing-deep-neural-networks/weight.png)   
+![그림 2](/images/2017-4-16-Compressing-and-regularizing-deep-neural-networks/weight.png)   
 <font color="gray"> [그림 2] 트레이닝 중 가중치 공유 </font>
 
 그림 3은 전체 압축 결과를 보여줍니다. Lenet-300-100 및 Lenet-5는 MNIST 데이터 세트에서 평가되는 반면
@@ -84,7 +84,7 @@ GoogleNet 및 SqueezeNet과 같은 FCN 이라 할지라도 `Deep compression`은
 전체적인 연구는 [`Deep Compression 논문`]('https://arxiv.org/pdf/1510.00149v5.pdf')
 에서 찾을 수 있습니다.
 
-![그림 3](../images/2017-4-16-Compressing-and-regularizing-deep-neural-networks/result.jpg)  
+![그림 3](/images/2017-4-16-Compressing-and-regularizing-deep-neural-networks/result.jpg)  
 <font color="gray"> [그림 3] Deep Compression 결과 </font>
 
 # DSD training
@@ -132,7 +132,7 @@ DSD에서 가중치를 제거하면 가중치와 관련된 히든 유닛의 대�
 우리의 DSD 트레이닝은 3 단계 프로세스를 사용합니다 : Dense 하고, Sparse 하고, 다시 Dense하고;
 각 단계는 그림 4에 나와 있습니다.
 
-![그림 4](../images/2017-4-16-Compressing-and-regularizing-deep-neural-networks/DSD.jpg)  
+![그림 4](/images/2017-4-16-Compressing-and-regularizing-deep-neural-networks/DSD.jpg)  
 <font color="gray"> [그림 4] Dense-Sparse-Dense 학습 플로우 </font>
 
 1. **Initial dense training**: 첫 번째 단계는 Dense 한 네트워크에서 정상적인 네트워크 교육을 통해 연결을 학습합니다.
@@ -157,7 +157,7 @@ Sparse 네트워크로 변환합니다.
 결과는 그림 5 에 나와 있습니다. DSD 모델은 [DSD Model Zoo](https://songhan.github.io/DSD/)
 에서 다운로드 할 수 있습니다.
 
-![그림 5](../images/2017-4-16-Compressing-and-regularizing-deep-neural-networks/improve.jpg)
+![그림 5](/images/2017-4-16-Compressing-and-regularizing-deep-neural-networks/improve.jpg)
 <font color="gray"> [그림 5] DSD 트레이닝은 정확도를 향상시킵니다. </font>
 
 # 이미지 캡션 Generating
