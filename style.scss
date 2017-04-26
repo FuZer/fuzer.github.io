@@ -292,6 +292,33 @@ nav {
   background-color: $lightGray;
 }
 
+.pagination {
+  margin-top: 20px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 0 10px;
+  width: 100%;
+
+  .previous {
+  	position: absolute;
+      left: 16px;
+  }
+
+  .next {
+	   position: absolute;
+     right: 16px;
+   }
+
+   .page_number {
+     left: 25%;
+     width: 50%;
+     text-align: center;
+	   position: absolute;
+     right: 16px;
+   }
+}
+
 footer {
   padding: 20px 0;
   text-align: center;

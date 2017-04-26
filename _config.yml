@@ -40,7 +40,8 @@ url: https://fuzer.github.io
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
-
+paginate: 4
+paginate_path: ":num/"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
