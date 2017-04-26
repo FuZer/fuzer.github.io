@@ -2,8 +2,20 @@
 .highlight {
   padding: 20px 20px 20px 20px;
   background-color: #272822;
-  margin: 20px 0 20px 0;
   border-radius: 3px;
+  color: #f8f8f2;
+  overflow: hidden;
+}
+
+code {
+  overflow-x:scroll;
+}
+
+.highlighter-rouge {
+  padding: 2px 2px 2px 2px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color:  #ae61cf;
 }
 
 .highlight .pre { background-color: #272822; }
