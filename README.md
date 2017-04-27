@@ -1,2 +1,2 @@
 # fuzer.github.io
-fuzer web page & blog
+fuzer's webpage & blog
