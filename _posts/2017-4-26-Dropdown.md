@@ -90,15 +90,10 @@ CSS로 Dropdown 메뉴를 구현하기 위해 w3schools.com
 
 다음은 내가 실습한 결과물이다.
 <style>
-div, ul, li {
-	margin:0;
-	padding:0;
-}
-
 #blogMenu {
 	float:left;
-	margin:0px 5px 5px 5px;
-	padding:5px 10px 5px 10px;
+	margin:2px 2px 5px 5px;
+	padding:5px 5px 10px 10px;
 	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
 	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
 	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
@@ -111,6 +106,8 @@ div, ul, li {
 }
 
 #blogMenu ul li {
+    margin:0px;
+	padding:0px;
 	float:left;
 	list-style-type:none;
 }
