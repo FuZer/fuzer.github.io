@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 웹알못 CSS Dropdown 메뉴 구현하기
+title: CSS Dropdown 메뉴 구현하기
 category: programming
 ---
 
