@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (번역) Compressing and regularizing deep neural networks 
-category: deeplearning
+category: paper
 ---
 <img src="https://d3tdunqjn7n0wj.cloudfront.net/720x480/differentiation_neural_progenitors_crop-798768fda1c414c137c41d130b5e7f4a.jpg" width="300" height="200"><br>
 
